@@ -155,7 +155,7 @@ body {
     line-height: 1.19;
          
     letter-spacing: 0.03em;   
-     color: var(--accent-color);
+    color: var(--accent-color);
     margin-right: 93px;
     margin-top: 24px;
     margin-bottom: 25px; 
@@ -163,7 +163,7 @@ body {
 .logo-part-theme-dark {
     font-family: var(--secondary-font);
     font-weight: 700;
-     font-size: 26px;
+    font-size: 26px;
     line-height: 1.19;
     
     letter-spacing: 0.03em; 
@@ -865,9 +865,7 @@ flex-direction: column;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;
-
-    /* display: flex;
-    align-items: center; */
+    color: var(--primary-text-color-theme-dark);
     letter-spacing: 0.03em;
 
     width: 358px;
@@ -910,4 +908,7 @@ flex-direction: column;
 .subskrib-form-input-icon{
     margin-left: 10px;
     fill: #FFFFFF;
+}
+.modal-form-link{
+    color: var(--accent-color);
 }
