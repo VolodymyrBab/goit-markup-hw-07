@@ -1,0 +1,9 @@
+.studia::after,
+.portfolio::after {
+    content: "";
+
+    width: auto;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+}
