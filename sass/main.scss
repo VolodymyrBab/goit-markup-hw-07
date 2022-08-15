@@ -1,6 +1,9 @@
 @import'./utils/variables';
 @import'./utils/visually-hidden';
 @import'./base/common';
+@import './layout/header';
+@import './layout/portfolio';
+@import './layout/sections';
 @import'./base/container';
 @import'./components/logo';
 @import'./components/line-after';
@@ -11,17 +14,13 @@
 @import'./components/menu-nav';
 @import'./components/sections-lists';
 @import'./components/sectons-txt';
-// @import''; 
-// @import'';
-// @import'';
-// @import'';
-// @import'';
-
-
-@import './layout/header';
-@import './layout/portfolio';
-@import './layout/sections';
+@import'./components/portfolio-uslugi'; 
+@import'./components/links-icons';
+@import'./components/subskrib-form';
 @import './layout/footer';
 @import './layout/modal-wind';
 
-
+// @import'';
+// @import'';
+// @import'';
+// @import'';

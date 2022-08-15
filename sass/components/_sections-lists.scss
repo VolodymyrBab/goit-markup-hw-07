@@ -32,7 +32,12 @@
     background-color: #ffffff;
     transition: border var(--trnsition-dur-and-func);
 }
-
+.social-list {
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+    margin: 0 auto;
+}
 
 .uslugi-list {
     flex-wrap: wrap;

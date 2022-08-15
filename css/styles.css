@@ -9,10 +9,7 @@
 
 
 
- .command-box{
-    padding-top: 30px;
-    padding-bottom: 30px;
- }
+ 
 
  
 
@@ -24,149 +21,13 @@
 
 
 
-.uslugi-box{
-    border-left: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
-}
-.uslugi-box-bg{
-    transition: box-shadow var(--trnsition-dur-and-func);
-    width: 370px;
-}
-.uslugi-box-bg:hover,
-.uslugi-box-bg:focus {
-    
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06), 
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 
-.uslugi-naime {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2.0;
-    
-    letter-spacing: 0.06em;
-    
-    color: var(--primary-text-color-theme-light);
-}
-.uslugi-p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    
-    letter-spacing: 0.03em;
-    
-    color: var(--primary-text-title-color-theme-light);
-}
-.uslugi-box-overlay{
-    position: relative;
-    overflow: hidden;
-}
-.uslugi-overlay{
-    position: absolute;
-    top: 0;
-    left: 0;  
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    transform: translate(0,100%);
-    transition: transform var(--trnsition-dur-and-func);
-
-    padding-top: 63px;
-    padding-bottom: 63px;
-    padding-left: 24px;
-    padding-right: 24px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.56;
-
-    letter-spacing: 0.03em;
-
-    color: var(--primary-text-color-theme-dark);
-    background-color: rgba(33, 150, 243, 0.9);
-}
-.uslugi-link:hover .uslugi-overlay,
-.uslugi-link:focus .uslugi-overlay{
-    transform: translate(0,0);
-}
 
 
 /* svg */
 
-.social-list{
-    display: flex;
-    justify-content: space-between;
-    width: 206px;
-    margin: 0 auto;
-}
-.social-list-item-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: #ffffff;
-    transition: background-color var(--trnsition-dur-and-func);
-}
-.social-futer-list-item-link{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: background-color var(--trnsition-dur-and-func);
-}
-.social-futer-list_icon{
-    fill: #ffffff;
-}
 
 
-.mail-list_icon, 
-.tel-list_icon{
-    transition: fill var(--trnsition-dur-and-func);
-    fill: #757575;
-    margin-right: 10px;
-}
-.social-list_icon,
-.section5-list_icon{
-    transition: fill var(--trnsition-dur-and-func);
-    fill: #afb1b8;
-}
-.social-futer-list-item-link:hover,
-.social-futer-list-item-link:focus,
-.social-list-item-link:hover,
-.social-list-item-link:focus{
-    
-    background-color: var(--accent-color);
-}
-.social-list-item-link:hover .social-list_icon,
-.social-list-item-link:focus .social-list_icon {
-    
-    fill: #ffffff;
-
-}
-.section5-list-item-link:hover,
-.section5-list-item-link:focus {
-    
-    border: 1px solid #2196F3;
-    border-radius: 4px;
-}
-.section5-list-item-link:hover .section5-list_icon,
-.section5-list-item-link:focus .section5-list_icon {
-    
-    fill: var(--accent-color);
-
-}
 
 /* modal window */
 
@@ -182,59 +43,5 @@
 
 /* форма подписки */
 
-.subskrib-form{
-    display: flex;
-}
-.subskrib-form-field{
-    margin-right: 12px;
-}
-.subskrib-form-input{
-    font-family: var(--primary-font);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
-    color: var(--primary-text-color-theme-dark);
-    letter-spacing: 0.03em;
 
-    width: 358px;
-    height: 50px;
-    padding: 12px 16px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15)); */
-    border-radius: 4px;
-    background-color: #2F303A;
-}
-.subskrib-form-input::placeholder{
-    color: rgba(255, 255, 255, 0.6);
-}
-.subskrib-form-input-wrapper{
-    display: flex;
-    position: relative;
-}
-.subskrib-form-submit{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 29px;
-    padding-right: 29px;
-   
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-
-    display: flex;
-    align-items: center; 
-    text-align: center;
-    letter-spacing: 0.06em;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-
-    background-color: var(--accent-color);
-    color: var(--primary-text-color-theme-dark);
-    /* transition: color var(--trnsition-dur-and-func),
-    background-color var(--trnsition-dur-and-func); */
-}
-.subskrib-form-input-icon{
-    margin-left: 10px;
-    fill: #FFFFFF;
-}
 
