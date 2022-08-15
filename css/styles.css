@@ -1,48 +1,7 @@
   /* sbros stilej */
 
-h1,
-h2,
-h3,
-h4,
-p {
-    margin-top: 0;
-    margin-bottom: 0; 
-}
 
-ul,
-ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
 
-img {
-    display: block;
-}
-
-button {
-    cursor: pointer;
-    border: 0px;
-}
-.list { 
-    list-style: none;
-}
-.link {
-    text-decoration: none;
-}
-/* stili shriftov */
-body {
-    font-family: var(--primary-font);
-    
-}
-.container{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px; 
-
-}
 .page-header-container,
 /* .menu, */
 .mail-tel,
@@ -89,10 +48,7 @@ body {
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-.page-header{
-    border-bottom: 1px solid #ECECEC;
-    background:#FFFFFF;
-}
+
 .section1{
     padding-top: 200px;
     padding-bottom: 200px;
@@ -190,42 +146,6 @@ body {
     border-radius: 2px;
     background-color:var(--accent-color);
 }
-
-
-.menu-link:hover,
-.menu-link:focus,
-.mail-link:hover,
-.mail-link:focus,
-.tel-link:hover,
-.tel-link:focus,
-.adres-link:hover,
-.adres-link:focus,
-.adres-mail:hover,
-.adres-tel:hover,
-.adres-mail:focus,
-.adres-tel:focus {
-    
-    color: var(--accent-color);
-}
-.mail-link, .tel-link {
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    
-    color: var(--primary-text-title-color-theme-light);
-    transition: color var(--trnsition-dur-and-func);
-}
-
-.mail-link:hover .mail-list_icon,
-.mail-link:focus .mail-list_icon,
-.tel-link:hover .tel-list_icon,
-.tel-link:focus .tel-list_icon{
-    
-    fill: var(--accent-color);
-}
-
 
 .section1-text {
     
@@ -353,57 +273,9 @@ body {
     padding-bottom: 30px;
  }
 
- .contacts {
-    display: flex;
-    justify-content: left;
- }
+ 
 
-.adres-link {
-   
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    
-    letter-spacing: 0.03em;
-    
-    color: var(--primary-text-color-theme-dark);
-    transition: color var(--trnsition-dur-and-func);
-}
-.adres-list{
-    margin-top: 20px;
-}
-.adres-mail, .adres-tel {
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-
-    letter-spacing: 0.03em;
-
-    color: rgba(255, 255, 255, 0.6);
-    transition: color var(--trnsition-dur-and-func);
-}
-.adres-item:not(:last-child){
-    margin-bottom: 9px;
-}
-.social-futer-h3{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    padding-top: 15px;
-    padding-bottom: 20px;
-    color: var(--primary-text-color-theme-dark);
-}
-.social-futer:first-child {
-    margin-right: 70px;
-}
-.social-futer:last-child {
-    margin-left: auto;
-}
 
 /* portfolio */
 

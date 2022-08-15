@@ -1,0 +1,57 @@
+.contacts {
+    display: flex;
+    justify-content: left;
+}
+.adres-link {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color-theme-dark);
+    transition: color var(--trnsition-dur-and-func);
+}
+
+.adres-list {
+    margin-top: 20px;
+}
+
+.adres-mail,
+.adres-tel {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+    transition: color var(--trnsition-dur-and-func);
+}
+
+.adres-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.social-futer-h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    color: var(--primary-text-color-theme-dark);
+}
+
+.social-futer:first-child {
+    margin-right: 70px;
+}
+
+.social-futer:last-child {
+    margin-left: auto;
+}

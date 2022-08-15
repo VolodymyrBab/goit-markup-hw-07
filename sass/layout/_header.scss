@@ -1,0 +1,37 @@
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+    background: #FFFFFF;
+}
+.mail-link,
+.tel-link {
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-title-color-theme-light);
+    transition: color var(--trnsition-dur-and-func);
+}
+.menu-link:hover,
+.menu-link:focus,
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus,
+.adres-link:hover,
+.adres-link:focus,
+.adres-mail:hover,
+.adres-tel:hover,
+.adres-mail:focus,
+.adres-tel:focus {
+
+    color: var(--accent-color);
+}
+.mail-link:hover .mail-list_icon,
+.mail-link:focus .mail-list_icon,
+.tel-link:hover .tel-list_icon,
+.tel-link:focus .tel-list_icon {
+
+    fill: var(--accent-color);
+}
