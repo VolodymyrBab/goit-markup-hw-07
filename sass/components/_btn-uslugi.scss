@@ -1,4 +1,4 @@
-.portfolio-button {
+.uslugi__button {
     @include font(500, 16px, 1.62);
     // font-weight: 500;
     // font-size: 16px;
@@ -28,12 +28,11 @@
     
 }
 
-.button-list {
+.uslugi-button__list {
     @extend %align;
-    justify-content: center;
     margin-bottom: 50px;
 }
 
-.button-item:not(:last-child) {
+.uslugi-button__item:not(:last-child) {
     padding-right: 8px;
 }

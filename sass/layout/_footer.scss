@@ -7,7 +7,7 @@
     display: flex;
     justify-content: left;
 }
-.adres-link {
+.adres__link {
 
     font-style: normal;
     // font-weight: 400;
@@ -26,12 +26,12 @@
     }
 }
 
-.adres-list {
+.adres__list {
     margin-top: 20px;
 }
 
-.adres-mail,
-.adres-tel {
+.adres__mail,
+.adres__tel {
 
     font-style: normal;
     // font-weight: 400;
@@ -49,7 +49,7 @@
     }
 }
 
-.adres-item:not(:last-child) {
+.adres__item:not(:last-child) {
     margin-bottom: 9px;
 }
 

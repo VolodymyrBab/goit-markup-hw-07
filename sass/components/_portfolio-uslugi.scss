@@ -1,4 +1,4 @@
-.uslugi-box {
+.uslugi__box {
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
@@ -8,7 +8,7 @@
     padding-right: 24px;
 }
 
-.uslugi-box-bg {
+.uslugi__bg {
     transition: box-shadow var(--trnsition-dur-and-func);
     width: 370px;
 
@@ -20,7 +20,7 @@
     }
 }
 
-.uslugi-naime {
+.uslugi__naime {
     @include font(700, 18px, 2.0);
     // font-weight: 700;
     // font-size: 18px;
@@ -31,7 +31,7 @@
     color: var(--primary-text-color-theme-light);
 }
 
-.uslugi-p {
+.uslugi__p {
     @include font(400, 16px, 1.88);
     // font-weight: 400;
     // font-size: 16px;
@@ -42,12 +42,12 @@
     color: var(--primary-text-title-color-theme-light);
 }
 
-.uslugi-box-overlay {
+.uslugi__box-overlay {
     position: relative;
     overflow: hidden;
 }
 
-.uslugi-overlay {
+.uslugi__overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -70,8 +70,8 @@
     color: var(--primary-text-color-theme-dark);
     background-color: rgba(33, 150, 243, 0.9);
 
-    .uslugi-link:hover &,
-    .uslugi-link:focus & {
+    .uslugi__link:hover &,
+    .uslugi__link:focus & {
         transform: translate(0, 0);
     }
 }

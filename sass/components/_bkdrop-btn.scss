@@ -1,4 +1,4 @@
-.backdrop-button {
+.backdrop__button {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -17,12 +17,12 @@
 }
 
 
-.modal-close-icon {
+.backdrop__icon {
     transition: fill var(--trnsition-dur-and-func);
     fill: #000000;
 
-    .backdrop-button:hover &,
-    .backdrop-button:focus &{
+    .backdrop__button:hover &,
+    .backdrop__button:focus &{
         fill: var(--accent-color);
     }
 }
