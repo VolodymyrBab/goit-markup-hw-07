@@ -1,29 +1,12 @@
-.page-header-container,
-.mail-tel,
-.section2-list,
-.section3-list,
-.section4-list,
-.section5-list,
-.button-list,
-.uslugi-list {
-    display: flex;
-    align-items: center;
-}
 .section2-list-item-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* width: 170px; */
+    @extend %align;
     height: 120px;
     border-radius: 4px;
     background-color: #F5F4FA
 }
 
 .section5-list-item-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
 
     width: 170px;
     height: 92px;
@@ -31,6 +14,17 @@
     border-radius: 4px;
     background-color: #ffffff;
     transition: border var(--trnsition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        border: 1px solid #2196F3;
+        border-radius: 4px;
+    }
+
+    &:hover .section5-list_icon,
+    &:focus .section5-list_icon {
+        fill: var(--accent-color);
+    }
 }
 .social-list {
     display: flex;
@@ -40,6 +34,7 @@
 }
 
 .uslugi-list {
+    @extend %align;
     flex-wrap: wrap;
     flex-basis: calc((100% - 2*30px)/3);
     gap: 30px;

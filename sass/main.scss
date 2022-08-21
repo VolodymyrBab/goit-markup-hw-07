@@ -1,12 +1,13 @@
 @import './utils/variables';
 @import './utils/visually-hidden';
+@import'./utils/placeholders';
+@import'./utils/mixins';
+
 @import './base/common';
-@import './layout/header';
-@import './layout/portfolio';
-@import './layout/sections';
 @import './base/container';
+
 @import './components/logo';
-@import './components/line-after';
+@import './components/underline';
 @import './components/btn-sec1';
 @import './components/btn-uslugi';
 @import './components/bkdrop-btn';
@@ -17,10 +18,14 @@
 @import './components/portfolio-uslugi'; 
 @import './components/links-icons';
 @import './components/subskrib-form';
+
+@import './layout/header';
+@import './layout/portfolio';
+@import './layout/sections';
 @import './layout/footer';
 @import './layout/modal-wind';
 
-// @import'';
+// 
 // @import'';
 // @import'';
 // @import'';

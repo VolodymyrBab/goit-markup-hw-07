@@ -23,19 +23,22 @@
     background-color: #F5F4FA;
 }
 
-.section2-item:not(:last-child),
-.section3-item:not(:last-child),
-.section4-item:not(:last-child),
 .section5-item:not(:last-child) {
     margin-right: 30px;
 }
 
 .section2-item {
     width: 270px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .section3-item {
     position: relative;
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 
 .section4-item {
@@ -44,6 +47,10 @@
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+
+    &:not(:last-child){
+        margin-right: 30px;
+    }
 }
 .command-box {
     padding-top: 30px;

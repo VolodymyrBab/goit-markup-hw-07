@@ -3,9 +3,7 @@
     top: 8px;
     right: 8px;
     outline: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %align;
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -15,15 +13,16 @@
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     padding: 0;
+    
 }
 
-.backdrop-button:hover .modal-close-icon,
-.backdrop-button:focus .modal-close-icon {
-    fill: var(--accent-color);
-
-}
 
 .modal-close-icon {
     transition: fill var(--trnsition-dur-and-func);
-    fill: #000000
+    fill: #000000;
+
+    .backdrop-button:hover &,
+    .backdrop-button:focus &{
+        fill: var(--accent-color);
+    }
 }

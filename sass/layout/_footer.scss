@@ -10,14 +10,20 @@
 .adres-link {
 
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    // font-weight: 400;
+    // font-size: 14px;
+    // line-height: 1.71;
+    @include font(400, 14px, 1.71);
 
     letter-spacing: 0.03em;
 
     color: var(--primary-text-color-theme-dark);
     transition: color var(--trnsition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .adres-list {
@@ -28,14 +34,19 @@
 .adres-tel {
 
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-
+    // font-weight: 400;
+    // font-size: 14px;
+    // line-height: 1.71;
+    @include font(400, 14px, 1.71);
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
     transition: color var(--trnsition-dur-and-func);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .adres-item:not(:last-child) {
@@ -43,9 +54,10 @@
 }
 
 .social-futer-h3 {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    // font-weight: 700;
+    // font-size: 14px;
+    // line-height: 1.14;
+    @include font(700, 14px, 1.14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     padding-top: 15px;
