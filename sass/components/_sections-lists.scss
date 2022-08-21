@@ -1,4 +1,4 @@
-.section2-list-item-link {
+.detailes__link {
     @extend %align;
     height: 120px;
     border-radius: 4px;
@@ -26,7 +26,8 @@
         fill: var(--accent-color);
     }
 }
-.social-list {
+.social__list,
+.social-footer__list {
     display: flex;
     justify-content: space-between;
     width: 206px;

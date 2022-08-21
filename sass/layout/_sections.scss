@@ -27,21 +27,21 @@
     margin-right: 30px;
 }
 
-.section2-item {
+.detailes__item {
     width: 270px;
     &:not(:last-child) {
         margin-right: 30px;
     }
 }
 
-.section3-item {
+.aktions__item {
     position: relative;
     &:not(:last-child){
         margin-right: 30px;
     }
 }
 
-.section4-item {
+.command__item {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),

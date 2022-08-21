@@ -2,11 +2,11 @@
     display: flex;
 }
 
-.subskrib-form-field {
+.subskrib-form__field {
     margin-right: 12px;
 }
 
-.subskrib-form-input {
+.subskrib-form__input {
     font-family: var(--primary-font);
     // font-weight: 400;
     // font-size: 16px;
@@ -30,12 +30,12 @@
 
 
 
-.subskrib-form-input-wrapper {
+.subskrib-form__wrapper {
     display: flex;
     position: relative;
 }
 
-.subskrib-form-submit {
+.subskrib-form__submit {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 29px;
@@ -55,7 +55,7 @@
     
 }
 
-.subskrib-form-input-icon {
+.subskrib-form__icon {
     margin-left: 10px;
     fill: #FFFFFF;
 }

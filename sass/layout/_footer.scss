@@ -1,4 +1,4 @@
-.futer-section {
+.footer-section {
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -53,7 +53,7 @@
     margin-bottom: 9px;
 }
 
-.social-futer-h3 {
+.social-footer__h3 {
     // font-weight: 700;
     // font-size: 14px;
     // line-height: 1.14;
@@ -65,10 +65,10 @@
     color: var(--primary-text-color-theme-dark);
 }
 
-.social-futer:first-child {
+.social-footer:first-child {
     margin-right: 70px;
 }
 
-.social-futer:last-child {
+.social-footer:last-child {
     margin-left: auto;
 }

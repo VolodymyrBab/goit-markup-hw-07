@@ -4,7 +4,7 @@
     height: 80px;
     padding-top: 32px;
 }
-.menu-link {
+.menu__link {
     @include font(500, 14px, 1.14);
     // font-weight: 500;
     // font-size: 14px;
@@ -20,7 +20,7 @@
     }
 }
 
-.menu-item {
+.menu__item {
     display: flex;
     flex-direction: column;
     &:not(:last-child) {
@@ -32,6 +32,6 @@
     margin-left: auto;
 }
 
-.mail-item:not(:last-child) {
+.mail-tel__item:not(:last-child) {
     margin-right: 40px;
 }

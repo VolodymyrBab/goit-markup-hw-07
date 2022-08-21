@@ -1,4 +1,4 @@
-.social-list-item-link {
+.social__link {
     @extend %align;
 
     width: 44px;
@@ -12,13 +12,13 @@
         background-color: var(--accent-color);
     }
 
-    &:hover .social-list_icon,
-    &:focus .social-list_icon {
+    &:hover .social__icon,
+    &:focus .social__icon {
         fill: #ffffff;
     }
 }
 
-.social-futer-list-item-link {
+.social-footer__link {
     @extend %align;
 
     width: 44px;
@@ -33,35 +33,40 @@
     }
 }
 
-.social-futer-list_icon {
+.social-footer__icon {
     fill: #ffffff;
 }
 
 
-.mail-list_icon{
+.mail_icon{
     transition: fill var(--trnsition-dur-and-func);
     fill: #757575;
     margin-right: 10px;
 
-    .mail-link:hover &,
-    .mail-link:focus & {
+    .mail:hover &,
+    .mail:focus & {
         fill: var(--accent-color);
     }
 }
 
-.tel-list_icon {
+.tel_icon {
     transition: fill var(--trnsition-dur-and-func);
     fill: #757575;
     margin-right: 10px;
 
-    .tel-link:hover &,
-    .tel-link:focus &{
+    .tel:hover &,
+    .tel:focus &{
         fill: var(--accent-color);
     }
 }
 
-.social-list_icon,
+.social__icon,
 .section5-list_icon {
+    
     transition: fill var(--trnsition-dur-and-func);
     fill: #afb1b8;
+}
+.detailes__icon{
+    width: 70px;
+    height: 70px;
 }

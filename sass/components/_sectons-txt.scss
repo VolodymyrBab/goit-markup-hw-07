@@ -1,4 +1,4 @@
-.section1-text {
+.hat__text {
 
     width: 696px;
 
@@ -16,7 +16,7 @@
 }
 
 
-.section2-h3 {
+.detailes__h3 {
     @include font(700, 14px, 1.14);
     // font-weight: 700;
     // font-size: 14px;
@@ -27,7 +27,7 @@
     color: var(--primary-text-color-theme-light);
 }
 
-.section2-p {
+.detailes__p {
     padding-top: 10px;
     // font-weight: 400;
     // font-size: 14px;
@@ -38,8 +38,8 @@
     color: var(--primary-text-title-color-theme-light);
 }
 
-.section3-text,
-.section4-text,
+.aktions__text,
+.command__text,
 .section5-text {
     margin-bottom: 50px;
     // font-weight: 700;
@@ -52,7 +52,7 @@
     color: var(--primary-text-color-theme-light);
 }
 
-.section3-item-text {
+.aktions__p {
     width: 370px;
     height: 70px;
     position: absolute;
@@ -71,7 +71,7 @@
 
 }
 
-.section4-naime {
+.command-box__naime {
 
     margin-bottom: 10px;
     // font-weight: 500;
@@ -85,7 +85,7 @@
     color: var(--primary-text-color-theme-light);
 }
 
-.section4-p {
+.command-box__p {
     margin-bottom: 16px;
     // font-weight: 400;
     // font-size: 16px;
